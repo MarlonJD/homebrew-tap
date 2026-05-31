@@ -1,9 +1,9 @@
 cask "mobile-release" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.2.1"
-  sha256 arm:   "00dc776f5b174b2785f73f2e9dbfcb7de8c836a337bce82e4534e29066f0ccdc",
-         intel: "792a7521bf518f0cb494d3165bccc91c9592f415256831fcd8c06a2244fb9788"
+  version "0.2.2"
+  sha256 arm:   "c13e85e6888e0d06ef084f6ffce59db00ddc5b26a0ac059ebac681d3f19dc13c",
+         intel: "5ce217f9700bdeb79d1d9b907ffb9468f073f297b40ebcb5a470fb732ee28256"
 
   url "https://github.com/MarlonJD/mobile-release-tools/releases/download/v#{version}/mobile-release_#{version}_darwin_#{arch}.tar.gz",
       verified: "github.com/MarlonJD/mobile-release-tools/"

@@ -1,8 +1,8 @@
 class MobileRelease < Formula
   desc "Local-first mobile release CLI for iOS and Android"
   homepage "https://github.com/MarlonJD/mobile-release-tools"
-  url "https://github.com/MarlonJD/mobile-release-tools/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "52c7b832f2adf5b2039371cfa2922a3bf14e66ab194c479f072f5f727f7bbb1e"
+  url "https://github.com/MarlonJD/mobile-release-tools/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "d18d9631177cd499cd6fc02cbd846e1f4aab83415fbca921d339aa00c7793bac"
   license "GPL-3.0-or-later"
 
   depends_on "go" => :build
